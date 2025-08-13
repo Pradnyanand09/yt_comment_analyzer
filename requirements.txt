@@ -1,0 +1,10 @@
+google-generativeai
+langchain
+langchain-google-genai
+pydantic
+python-dotenv
+requests
+streamlit
+langchain-google-vertexai
+google-cloud-aiplatform
+google-api-python-client

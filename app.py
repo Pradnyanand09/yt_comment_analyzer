@@ -146,7 +146,7 @@ def main() -> None:
         bullets = [f"- {sanitize_comment(c)}" for c in comments]
         comments_block = "\n".join(bullets)
 
-        with st.spinner("🤖 Analyzing with Gemini 1.5 Flash..."):
+        with st.spinner("🤖 Analyzing with Gemini 2.5 Flash..."):
             try:
                 chain = build_chain()
                 result_str = chain.invoke({"comments": comments_block, "n": len(comments)})
